@@ -14,5 +14,10 @@ package id.tatangsulaeman.haircut.quiz;
  * Deskripsi program    : Program Hasircut Quiz
  */
 public class Main {
-    
+    public static void main(String[]args){
+        ServicePrice datSP = new ServicePrice();
+        
+        datSP.displayService();
+        
+    }
 }
